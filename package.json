@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "build": "node-gyp clean && node-gyp configure && node-gyp build",
+    "install": "node-gyp rebuild"
+  },
+  "dependencies": {
+    "node-addon-api": "^8.5.0"
+  },
+  "name": "controllermanager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": ["bluetooth", "controller"],
+  "author": "Tommy",
+  "license": "MIT",
+  "gypfile": true,
+  "description": "A C++ module made for AppLauncher to disconnect a controller from bluetooth"
+}
