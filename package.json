@@ -14,5 +14,8 @@
   "author": "Tommy",
   "license": "MIT",
   "gypfile": true,
-  "description": "A C++ module made for AppLauncher to disconnect a controller from bluetooth"
+  "description": "A C++ module made for AppLauncher to disconnect a controller from bluetooth",
+  "os": [
+    "win32"
+  ]
 }
